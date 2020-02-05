@@ -1,11 +1,6 @@
-Area,Element,Item Code,Value
-Brazil,Feed,2511,500
-Brazil,Food,2511,10227
-China,Feed,2511,36283
-China,Food,2511,91146
-India,Feed,2511,6008
-India,Food,2511,82877
-Russian Federation,Feed,2511,17711
-Russian Federation,Food,2511,18836
-United States of America,Feed,2511,1286
-United States of America,Food,2511,26279
+country,value
+Brazil,10227
+China,91146
+India,82877
+Russian Federation,18836
+United States of America,26279
