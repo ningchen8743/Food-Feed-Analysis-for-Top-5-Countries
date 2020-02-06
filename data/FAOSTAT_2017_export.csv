@@ -1,56 +1,56 @@
-Domain Code,Domain,Area Code,Area,Element Code,Element,Item Code,Item,Year Code,Year,Unit,Value,Flag,Flag Description
-"FBS","New Food Balances","21","Brazil","5911","Export Quantity","2905","Cereals - Excluding Beer","2017","2017","1000 tonnes","31192","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","21","Brazil","5911","Export Quantity","2907","Starchy Roots","2017","2017","1000 tonnes","87","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","21","Brazil","5911","Export Quantity","2909","Sugar & Sweeteners","2017","2017","1000 tonnes","29338","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","21","Brazil","5911","Export Quantity","2911","Pulses","2017","2017","1000 tonnes","123","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","21","Brazil","5911","Export Quantity","2912","Treenuts","2017","2017","1000 tonnes","49","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","21","Brazil","5911","Export Quantity","2918","Vegetables","2017","2017","1000 tonnes","375","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","21","Brazil","5911","Export Quantity","2919","Fruits - Excluding Wine","2017","2017","1000 tonnes","11447","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","21","Brazil","5911","Export Quantity","2943","Meat","2017","2017","1000 tonnes","7227","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","21","Brazil","5911","Export Quantity","2949","Eggs","2017","2017","1000 tonnes","17","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","21","Brazil","5911","Export Quantity","2948","Milk - Excluding Butter","2017","2017","1000 tonnes","144","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","21","Brazil","5911","Export Quantity","2960","Fish, Seafood","2017","2017","1000 tonnes","90","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","351","China","5911","Export Quantity","2905","Cereals - Excluding Beer","2017","2017","1000 tonnes","3768","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","351","China","5911","Export Quantity","2907","Starchy Roots","2017","2017","1000 tonnes","886","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","351","China","5911","Export Quantity","2909","Sugar & Sweeteners","2017","2017","1000 tonnes","2505","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","351","China","5911","Export Quantity","2911","Pulses","2017","2017","1000 tonnes","463","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","351","China","5911","Export Quantity","2912","Treenuts","2017","2017","1000 tonnes","385","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","351","China","5911","Export Quantity","2918","Vegetables","2017","2017","1000 tonnes","13885","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","351","China","5911","Export Quantity","2919","Fruits - Excluding Wine","2017","2017","1000 tonnes","5970","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","351","China","5911","Export Quantity","2943","Meat","2017","2017","1000 tonnes","1741","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","351","China","5911","Export Quantity","2949","Eggs","2017","2017","1000 tonnes","122","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","351","China","5911","Export Quantity","2948","Milk - Excluding Butter","2017","2017","1000 tonnes","140","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","351","China","5911","Export Quantity","2960","Fish, Seafood","2017","2017","1000 tonnes","9065","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","100","India","5911","Export Quantity","2905","Cereals - Excluding Beer","2017","2017","1000 tonnes","19770","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","100","India","5911","Export Quantity","2907","Starchy Roots","2017","2017","1000 tonnes","420","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","100","India","5911","Export Quantity","2909","Sugar & Sweeteners","2017","2017","1000 tonnes","2429","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","100","India","5911","Export Quantity","2911","Pulses","2017","2017","1000 tonnes","156","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","100","India","5911","Export Quantity","2912","Treenuts","2017","2017","1000 tonnes","405","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","100","India","5911","Export Quantity","2918","Vegetables","2017","2017","1000 tonnes","2673","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","100","India","5911","Export Quantity","2919","Fruits - Excluding Wine","2017","2017","1000 tonnes","1028","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","100","India","5911","Export Quantity","2943","Meat","2017","2017","1000 tonnes","1346","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","100","India","5911","Export Quantity","2949","Eggs","2017","2017","1000 tonnes","57","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","100","India","5911","Export Quantity","2948","Milk - Excluding Butter","2017","2017","1000 tonnes","289","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","100","India","5911","Export Quantity","2960","Fish, Seafood","2017","2017","1000 tonnes","1747","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","185","Russian Federation","5911","Export Quantity","2905","Cereals - Excluding Beer","2017","2017","1000 tonnes","44115","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","185","Russian Federation","5911","Export Quantity","2907","Starchy Roots","2017","2017","1000 tonnes","194","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","185","Russian Federation","5911","Export Quantity","2909","Sugar & Sweeteners","2017","2017","1000 tonnes","952","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","185","Russian Federation","5911","Export Quantity","2911","Pulses","2017","2017","1000 tonnes","1254","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","185","Russian Federation","5911","Export Quantity","2912","Treenuts","2017","2017","1000 tonnes","41","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","185","Russian Federation","5911","Export Quantity","2918","Vegetables","2017","2017","1000 tonnes","221","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","185","Russian Federation","5911","Export Quantity","2919","Fruits - Excluding Wine","2017","2017","1000 tonnes","182","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","185","Russian Federation","5911","Export Quantity","2943","Meat","2017","2017","1000 tonnes","213","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","185","Russian Federation","5911","Export Quantity","2949","Eggs","2017","2017","1000 tonnes","30","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","185","Russian Federation","5911","Export Quantity","2948","Milk - Excluding Butter","2017","2017","1000 tonnes","364","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","185","Russian Federation","5911","Export Quantity","2960","Fish, Seafood","2017","2017","1000 tonnes","2713","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","231","United States of America","5911","Export Quantity","2905","Cereals - Excluding Beer","2017","2017","1000 tonnes","93954","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","231","United States of America","5911","Export Quantity","2907","Starchy Roots","2017","2017","1000 tonnes","3845","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","231","United States of America","5911","Export Quantity","2909","Sugar & Sweeteners","2017","2017","1000 tonnes","3665","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","231","United States of America","5911","Export Quantity","2911","Pulses","2017","2017","1000 tonnes","1353","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","231","United States of America","5911","Export Quantity","2912","Treenuts","2017","2017","1000 tonnes","2036","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","231","United States of America","5911","Export Quantity","2918","Vegetables","2017","2017","1000 tonnes","5083","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","231","United States of America","5911","Export Quantity","2919","Fruits - Excluding Wine","2017","2017","1000 tonnes","6473","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","231","United States of America","5911","Export Quantity","2943","Meat","2017","2017","1000 tonnes","7585","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","231","United States of America","5911","Export Quantity","2949","Eggs","2017","2017","1000 tonnes","249","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","231","United States of America","5911","Export Quantity","2948","Milk - Excluding Butter","2017","2017","1000 tonnes","11346","A","Aggregate, may include official, semi-official, estimated or calculated data"
-"FBS","New Food Balances","231","United States of America","5911","Export Quantity","2960","Fish, Seafood","2017","2017","1000 tonnes","2633","A","Aggregate, may include official, semi-official, estimated or calculated data"
+Area,Item,Unit,Value,,Number,Cereal,Starchy Roots,Sugar,Pulses,Treenuts,Vegetables,Fruits,Meat,Milk,Fish,Country total,,
+Brazil,Cereals - Excluding Beer,1000 tonnes,31192,,Brazil,31192,87,29338,123,49,375,11447,7227,144,90,80072,,
+Brazil,Starchy Roots,1000 tonnes,87,,China,3768,886,2505,463,385,13885,5970,1741,140,9065,38808,,
+Brazil,Sugar & Sweeteners,1000 tonnes,29338,,India,19770,420,2429,156,405,2673,1028,1346,289,1747,30263,,
+Brazil,Pulses,1000 tonnes,123,,Russia,44115,194,952,1254,41,221,182,213,364,2713,50249,,
+Brazil,Treenuts,1000 tonnes,49,,USA,93954,3845,3665,1353,2036,5083,6473,7585,11346,2633,137973,,
+Brazil,Vegetables,1000 tonnes,375,,Category total,192799,5432,38889,3349,2916,22237,25100,18112,12283,16248,,,
+Brazil,Fruits - Excluding Wine,1000 tonnes,11447,,,,,,,,,,,,,,,
+Brazil,Meat,1000 tonnes,7227,,,,,,,,,,,,,,,
+Brazil,Eggs,1000 tonnes,17,,Percentage,Cereal,Starchy Roots,Sugar,Pulses,Treenuts,Vegetables,Fruits,Meat,Milk,Fish,Export total,Production total,Export%
+Brazil,Milk - Excluding Butter,1000 tonnes,144,,Brazil,38.95494055,0.108652213,36.63952443,0.153611749,0.061194925,0.468328504,14.2958837,9.025626936,0.179838146,0.112398841,80072,300425,26.65290838
+Brazil,"Fish, Seafood",1000 tonnes,90,,China,9.709338281,2.283034426,6.454854669,1.193052979,0.992063492,35.77870542,15.3834261,4.486188415,0.360750361,23.35858586,38808,1866806,2.078844829
+China,Cereals - Excluding Beer,1000 tonnes,3768,,India,65.32729736,1.387833328,8.026302746,0.51548095,1.338267852,8.832567822,3.396887288,4.447675379,0.954961504,5.772725771,30263,840792,3.599344428
+China,Starchy Roots,1000 tonnes,886,,Russia,87.7927919,0.386077335,1.894565066,2.495572051,0.081593664,0.439809747,0.362196263,0.423889033,0.724392525,5.39911242,50249,249063,20.17521671
+China,Sugar & Sweeteners,1000 tonnes,2505,,USA,68.09593181,2.786777123,2.656316816,0.980626644,1.475651033,3.684054127,4.691497612,5.4974524,8.223348046,1.908344386,137973,729724,18.90755957
+China,Pulses,1000 tonnes,463,,,,,,,,,,,,,,,
+China,Treenuts,1000 tonnes,385,,,,,,,,,,,,,,,
+China,Vegetables,1000 tonnes,13885,,,,,,,,,,,,,,,
+China,Fruits - Excluding Wine,1000 tonnes,5970,,,,,,,,,,,,,,,
+China,Meat,1000 tonnes,1741,,,,,,,,,,,,,,,
+China,Eggs,1000 tonnes,122,,,,,,,,,,,,,,,
+China,Milk - Excluding Butter,1000 tonnes,140,,,,,,,,,,,,,,,
+China,"Fish, Seafood",1000 tonnes,9065,,,,,,,,,,,,,,,
+India,Cereals - Excluding Beer,1000 tonnes,19770,,,,,,,,,,,,,,,
+India,Starchy Roots,1000 tonnes,420,,,,,,,,,,,,,,,
+India,Sugar & Sweeteners,1000 tonnes,2429,,,,,,,,,,,,,,,
+India,Pulses,1000 tonnes,156,,,,,,,,,,,,,,,
+India,Treenuts,1000 tonnes,405,,,,,,,,,,,,,,,
+India,Vegetables,1000 tonnes,2673,,,,,,,,,,,,,,,
+India,Fruits - Excluding Wine,1000 tonnes,1028,,,,,,,,,,,,,,,
+India,Meat,1000 tonnes,1346,,,,,,,,,,,,,,,
+India,Eggs,1000 tonnes,57,,,,,,,,,,,,,,,
+India,Milk - Excluding Butter,1000 tonnes,289,,,,,,,,,,,,,,,
+India,"Fish, Seafood",1000 tonnes,1747,,,,,,,,,,,,,,,
+Russian Federation,Cereals - Excluding Beer,1000 tonnes,44115,,,,,,,,,,,,,,,
+Russian Federation,Starchy Roots,1000 tonnes,194,,,,,,,,,,,,,,,
+Russian Federation,Sugar & Sweeteners,1000 tonnes,952,,,,,,,,,,,,,,,
+Russian Federation,Pulses,1000 tonnes,1254,,,,,,,,,,,,,,,
+Russian Federation,Treenuts,1000 tonnes,41,,,,,,,,,,,,,,,
+Russian Federation,Vegetables,1000 tonnes,221,,,,,,,,,,,,,,,
+Russian Federation,Fruits - Excluding Wine,1000 tonnes,182,,,,,,,,,,,,,,,
+Russian Federation,Meat,1000 tonnes,213,,,,,,,,,,,,,,,
+Russian Federation,Eggs,1000 tonnes,30,,,,,,,,,,,,,,,
+Russian Federation,Milk - Excluding Butter,1000 tonnes,364,,,,,,,,,,,,,,,
+Russian Federation,"Fish, Seafood",1000 tonnes,2713,,,,,,,,,,,,,,,
+United States of America,Cereals - Excluding Beer,1000 tonnes,93954,,,,,,,,,,,,,,,
+United States of America,Starchy Roots,1000 tonnes,3845,,,,,,,,,,,,,,,
+United States of America,Sugar & Sweeteners,1000 tonnes,3665,,,,,,,,,,,,,,,
+United States of America,Pulses,1000 tonnes,1353,,,,,,,,,,,,,,,
+United States of America,Treenuts,1000 tonnes,2036,,,,,,,,,,,,,,,
+United States of America,Vegetables,1000 tonnes,5083,,,,,,,,,,,,,,,
+United States of America,Fruits - Excluding Wine,1000 tonnes,6473,,,,,,,,,,,,,,,
+United States of America,Meat,1000 tonnes,7585,,,,,,,,,,,,,,,
+United States of America,Eggs,1000 tonnes,249,,,,,,,,,,,,,,,
+United States of America,Milk - Excluding Butter,1000 tonnes,11346,,,,,,,,,,,,,,,
+United States of America,"Fish, Seafood",1000 tonnes,2633,,,,,,,,,,,,,,,
