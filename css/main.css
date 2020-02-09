@@ -1,3 +1,39 @@
+body {
+	background: #1c2e4a;
+}
+
+div {
+	font-family: "Century Gothic", sans-serif;
+}
+
+h1#title {
+	font-size: 44px;
+	font-weight: 700;
+}
+
+#introduction-1 {
+	height: 100vh;
+}
+
+#openingTitle {
+	height: 100vh;
+	text-align: center;
+}
+
+#openingImg {
+	height:100vh;
+	top: 0px;
+}
+
+#title {
+	color: white;
+	padding-top: 22%;
+	padding-left: 20vw;
+    padding-right: 20vw;
+	top: 0px;
+	position: absolute;
+	z-index: 100;
+}
 .foodbar { 
 	fill: light pink;
 }
