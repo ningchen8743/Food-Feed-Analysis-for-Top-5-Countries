@@ -25,14 +25,29 @@ h1#title {
 	font-weight: 700;
 }
 
+h3 {
+	font-weight:700;
+}
+
 p {
 	font-size:14px;
+}
+
+#bolded {
+	font-weight:700;
+	color: yellow;
 }
 
 .paragraph {
 	height: 100vh;
 	padding-top:3vw;
 	padding-left:2vw;
+}
+
+#intro-paragraph {
+	text-align: justify;
+	padding-left:20vw;
+	padding-right:20vw;
 }
 
 #openingTitle {
@@ -52,6 +67,28 @@ p {
 	top: 0px;
 	position: absolute;
 	z-index: 100;
+}
+
+#my-map-div {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.countryArea {
+    stroke-linejoin: round;
+}
+
+.my-map-tooltip {
+    font-family: "Century Gothic", CenturyGothic, sans-serif;
+    font-size: 14px;
+    position: absolute;
+    text-align: center;
+    width: 80px;
+    background: #ffffff;
+    border: 0px;
+    padding: 10px;
+    pointer-events: none;
 }
 
 #flowingbubbles {

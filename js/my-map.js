@@ -6,8 +6,8 @@
 // define map manager class
 //------------------------------------------------------------
 function MapManager() {
-    this.plotWidth = 1600;
-    this.plotHeight = 800;
+    this.plotWidth = 1100;
+    this.plotHeight = 600;
 
     this.myProjection = d3.geoNaturalEarth1();
 
@@ -131,7 +131,8 @@ function MapManager() {
         //++++++++++++++++++++++++++++++
         this.myMapSvgPlotObj = d3.select("#my-map-svg")
                             .attr("width", this.plotWidth)
-                            .attr("height", this.plotHeight);
+                            .attr("height", this.plotHeight)
+							.attr("viewBox", `0 0 ${this.plotWidth} ${this.plotHeight - 200}`); // remove Antarctica;
 
         this.countryAreasPlotObj = this.myMapSvgPlotObj.append("g");
 

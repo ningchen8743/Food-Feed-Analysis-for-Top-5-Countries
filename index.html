@@ -10,6 +10,9 @@
 
         <link rel="stylesheet" href="css/main.css">
         <script src="https://d3js.org/d3.v5.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.js"></script>
+		<script src="https://unpkg.com/d3-simple-slider"></script>
+		<script src="js/my-map.js"></script>
     </head>
 	
     <body>
@@ -21,13 +24,21 @@
 	
 	<div class="divider"></div>
 	
-	<div class="row">
-		<div class="col-lg-3 col-md-4 col-sm-6 paragraph">
-			<p>Food is a fundamental economic product, but only a handful of countries actually excel at food production. Most agricultural commodities require a lot of land, which only the largest countries have in abundance. According to Food and Agriculture Organization's data, China, India, United States, Brazil and Russian have long been considered the top food suppliers in the world.</p>
-			<p>China always out-produces the U.S., and in some years India produces more food than the U.S.</p>
-		</div>
-		<div id="map" class="col-lg-9 col-md-8 col-sm-12">
-			<h3>Who are the biggest food producers?</h3>
+	<div id="intro-paragraph">
+		<h3>Who are the biggest food producers?</h3>
+		<p>Food is a fundamental economic product, but only a handful of countries actually excel at food production. Most agricultural commodities require a lot of land, which only the largest countries have in abundance.(Ross 2019)</p>
+		<p>Food Balance dataset from FAO presents a comprehensive picture of the food supply chain (import, production and export quantities) of a country during 1961-2017. An overall investigation reveals that <big id="bolded">China, India, United States, Brazil and Russia</big> have long been the top food producers in the world.</p>
+		<p>The United States had been a leader in food markets until 1980s, China started out-producing the US. Later in 1997 and 2007, India and Brazil's food production quantity outran US for the first time.</p>
+		<p>Comparing to the top four countries, Russia has a relative low production quantity partially because of its harsh northern climate.</p>
+		<p>Scroll down to see the map showing the <big id="bolded">changes of total production quantity</big> through years.</p>
+	</div>
+	
+	<div class="divider"></div>
+	
+	<div>
+		<div id="my-map-div" >
+			<svg id="my-map-svg"></svg>
+			<div id="slider-bar-step"></div>
 		</div>
 	</div>	
 	
@@ -35,7 +46,7 @@
 	
 	<div class="row">	
 		<div class="col-lg-3 col-md-4 col-sm-6 paragraph">
-			
+			<p></p>
 		</div>
 		<div id="radarChart" class="col-lg-9 col-md-8 col-sm-12">
 			<h3>What do they produce the most?</h3>
@@ -46,7 +57,7 @@
 	
 	<div class="row">	
 		<div class="col-lg-3 col-md-4 col-sm-6 paragraph">
-			<p>The United States has long been a superpower in food markets, it is still the world's largest food exporter. China and India also end up consuming much more of their own products. This makes sense since China and India have the world's largest populations by a wide margin.</p>
+			<p>The United States has long been the world's largest food exporter. China and India also end up consuming much more of their own products. This makes sense since China and India have the world's largest populations by a wide margin.(Ross 2019)</p>
 		</div>
 		<div id="flowingbubbles" class="col-lg-9 col-md-8 col-sm-12">
 			<h3>Which countries feed the world?</h3>
