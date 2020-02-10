@@ -1,0 +1,22 @@
+#my-map-div {
+    position: relative;
+    width: 100%;
+    background-color: #001124;
+    text-align: center;
+}
+
+.countryArea {
+    stroke-linejoin: round;
+}
+
+.my-map-tooltip {
+    font-family: "Century Gothic", CenturyGothic, sans-serif;
+    font-size: 14px;
+    position: absolute;
+    text-align: center;
+    width: 80px;
+    background: #ffffff;
+    border: 0px;
+    padding: 10px;
+    pointer-events: none;
+}
