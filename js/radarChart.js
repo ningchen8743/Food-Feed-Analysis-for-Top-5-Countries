@@ -19,7 +19,7 @@ function RadarChart(id, data, options) {
 	 opacityCircles: 0.1, 	//The opacity of the circles of each blob
 	 strokeWidth: 2, 		//The width of the stroke around each blob
 	 roundStrokes: false,	//If true the area and stroke will follow a round path (cardinal-closed)
-	 color: d3.scale.category10()	//Color function
+	 color: d3.scaleOrdinal()	//Color function
 	};
 	
 	//Put all of the options into a variable called cfg
@@ -39,7 +39,7 @@ function RadarChart(id, data, options) {
 		angleSlice = Math.PI * 2 / total;		//The width in radians of each "slice"
 	
 	//Scale for the radius
-	var rScale = d3.scale.linear()
+	var rScale = d3.scaleLinear()
 		.range([0, radius])
 		.domain([0, maxValue]);
 		
@@ -352,7 +352,7 @@ for(let i = 0; i < data.length; ++i) {
 	}
 }
 
-var color = d3.scale.ordinal()
+var color = d3.scaleOrdinal()
 	.range(["#008000","#FF4C4C","#0000b2","#ffff9d","#a700a7"]);
 	
 var radarChartOptions = {
