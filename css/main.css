@@ -40,8 +40,10 @@ p {
 
 .paragraph {
 	height: 100vh;
-	padding-top:3vw;
+	padding-top:2vw;
 	padding-left:2vw;
+	padding-right:2vw;
+	text-align: justify;
 }
 
 #intro-paragraph {
@@ -95,3 +97,11 @@ p {
 #flowingbubbles {
 	height: 150vh;
 }
+
+ul {
+	font-size: 14px;
+	text-align: left;
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+
