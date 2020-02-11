@@ -6,7 +6,7 @@
 // define map manager class
 //------------------------------------------------------------
 function MapManager() {
-    this.plotWidth = 1100;
+    this.plotWidth = 1200;
     this.plotHeight = 600;
 
     this.myProjection = d3.geoNaturalEarth1();

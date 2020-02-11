@@ -81,13 +81,14 @@ p {
 
 .my-map-tooltip {
     font-family: "Century Gothic", CenturyGothic, sans-serif;
-    font-size: 14px;
+    font-size: 12px;
+	color: black;
     position: absolute;
     text-align: center;
     width: 80px;
     background: #ffffff;
     border: 0px;
-    padding: 10px;
+    padding: 4px;
     pointer-events: none;
 }
 
