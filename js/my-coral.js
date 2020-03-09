@@ -677,9 +677,9 @@ let rcm = new CoralChartManager();
 // configure object
 const myConfig = {
     "plotWidth" : 900,
-    "plotHeight" : 800,
-    "upperHeight" : 600,
-    "margin" : {"top" : 100, "bottom" : 20, "middle" : 100},
+    "plotHeight" : 600,
+    "upperHeight" : 460,
+    "margin" : {"top" : 150, "bottom" : 20, "middle" : 100},
     "fontFamily" : "\"Century Gothic\", CenturyGothic, sans-serif",
     "fontColor" : "#ffffff",
     "fontSize" : 14,

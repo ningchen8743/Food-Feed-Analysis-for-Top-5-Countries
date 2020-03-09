@@ -275,7 +275,7 @@ function ChordChartManager() {
                                  .attr("transform", `translate(${this.myConfig["plotWidth"] / 2}, ${this.myConfig["upperChordRadius"] + 20})`);
 
         this.myGroupsLower = this.mySvg.append("g")
-                                 .attr("transform", `translate(${this.myConfig["plotWidth"] / 2}, ${this.myConfig["lowerChordRadius"] + this.myConfig["upperChordRadius"] * 2.0 + 20})`);
+                                 .attr("transform", `translate(${this.myConfig["plotWidth"] / 2}, ${this.myConfig["lowerChordRadius"] + this.myConfig["upperChordRadius"] * 2.0})`);
 
         // add text
         this.myText = this.mySvg
@@ -403,7 +403,7 @@ function ChordChartManager() {
                     if(i < this.myData.length)
                     {
                         let rotateDegree = 180.0 / Math.PI * (d["source"]["startAngle"] + d["source"]["endAngle"]) / 2.0;
-                        transformCmd = `rotate(${rotateDegree - 90}) translate(250, 0)`;
+                        transformCmd = `rotate(${rotateDegree - 90}) translate(220, 0)`;
 
                         if(rotateDegree > 180.0)
                         {
@@ -436,7 +436,7 @@ const myConfig = {
     "opacity" : 0.4,
     "opacityMouseOver" : 1.0,
     "upperChordRadius" : 100,
-    "lowerChordRadius" : 200,
+    "lowerChordRadius" : 170,
     "padAngleRadian" : 0.1,
     "subtendAngleDegree" : 200,
 };
