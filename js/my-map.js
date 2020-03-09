@@ -6,7 +6,7 @@
 // define map manager class
 //------------------------------------------------------------
 function MapManager() {
-    this.plotWidth = 1200;
+    this.plotWidth = 1100;
     this.plotHeight = 600;
 
     this.myProjection = d3.geoNaturalEarth1();
@@ -132,7 +132,7 @@ function MapManager() {
         this.myMapSvgPlotObj = d3.select("#my-map-svg")
                             .attr("width", this.plotWidth)
                             .attr("height", this.plotHeight)
-							.attr("viewBox", `0 0 ${this.plotWidth} ${this.plotHeight - 200}`); // remove Antarctica;
+                            .attr("viewBox", `0 0 ${this.plotWidth} ${this.plotHeight -200}`); // remove Antarctica
 
         this.countryAreasPlotObj = this.myMapSvgPlotObj.append("g");
 
@@ -149,7 +149,7 @@ function MapManager() {
 
         this.countryAreasPlotPath.attr("class", "countryArea")
             .attr("d", this.myPath)
-            .style("stroke", "#ffffff")
+            .style("stroke", "none")
             .style("stroke-width", 0.5)
             .style("stroke-opacity", 0.8)
             .style("fill", (d) => {
@@ -167,14 +167,16 @@ function MapManager() {
                     }
                 }
 
-                let myColor = "#888888";
+                let myColor = "#444444";
                 if(bFound)
                 {
-                    // transform data from [min, max] into [0, 1]
-                    let adjustedData = this.data1Scaler(el["coreData"][this.currentYear]);
+                    // // transform data from [min, max] into [0, 1]
+                    // let adjustedData = this.data1Scaler(el["coreData"][this.currentYear]);
 
-                    // obtain a color value for the data between [0, 1]
-                    myColor = this.colorInterpolator(adjustedData);
+                    // // obtain a color value for the data between [0, 1]
+                    // myColor = this.colorInterpolator(adjustedData);
+
+                    myColor = "#aaaaaa";
                 }
 
                 return myColor;
@@ -207,8 +209,8 @@ function MapManager() {
             })
             .on("mouseout", (d, i, nodes) => {
                 d3.select(nodes[i])
-                    .style("stroke", "#ffffff")
-                    .style("stroke-width", 0.5)
+                    .style("stroke", "none")
+                    .style("stroke-width", 1)
                     .style("stroke-opacity", 0.8);
 
                 this.toolTip
@@ -219,7 +221,7 @@ function MapManager() {
         // transform data from [min, max] into [0, 1]
         this.data2Scaler = d3.scaleLinear()
                             .domain([this.globalMin, this.globalMax])
-                            .range([0.0, 60.0]);
+                            .range([0.0, 100.0]);
 
         let temp = this.myMapSvgPlotObj.append("g");
         this.circlePlotObj = temp.selectAll("circle")
@@ -237,8 +239,11 @@ function MapManager() {
             .attr("r", (d) => {
                 return this.data2Scaler(d["coreData"][this.currentYear]);
             })
-            .style("fill", "#ff8888cc")
-            .style("stroke", "#ff0000");
+            .style("fill", (d) => {
+                return d["color"];
+            })
+            .style("stroke", "none")
+            .attr("opacity", 0.8);
 
         // obtain list of year in string
         this.yearList = Object.keys(this.myData[0]["coreData"]);
@@ -296,11 +301,11 @@ window.addEventListener("load", (event) => {
 let mm = new MapManager();
 
 const mapUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json";
-const myData = [{"countryName" : "China"                    , "globalIdx" : -1, "coreData" : {"1967" : 388772 , "1977" : 499015, "1987" : 763613  , "1997" :  1167965 , "2007" : 1607703 , "2013" : 1943987 , "2017" : 2161333}},
-                {"countryName" : "India"                    , "globalIdx" : -1, "coreData" : {"1967" : 275260 , "1977" : 412318, "1987" : 516632  , "1997" :  757694  , "2007" : 1005286 , "2013" : 1126270 , "2017" : 1223513}},
-                {"countryName" : "United States of America" , "globalIdx" : -1, "coreData" : {"1967" : 448832 , "1977" : 566895, "1987" : 622327  , "1997" :  744857  , "2007" : 847396  , "2013" : 894668  , "2017" : 974034 }},
-                {"countryName" : "Brazil"                   , "globalIdx" : -1, "coreData" : {"1967" : 164118 , "1977" : 246755, "1987" : 432765  , "1997" :  549937  , "2007" : 884825  , "2013" : 1143605 , "2017" : 1216178}},
-                {"countryName" : "Russia"                   , "globalIdx" : -1, "coreData" : {"1967" : 0      , "1977" : 0     , "1987" : 0       , "1997" :  211041  , "2007" : 236353  , "2013" : 263296  , "2017" : 334095 }}];
+const myData = [{"countryName" : "China"                    , "color" : "#FF7F0E", "globalIdx" : -1, "coreData" : {"1967" : 388772 , "1977" : 499015, "1987" : 763613  , "1997" :  1167965 , "2007" : 1607703 , "2013" : 1943987 , "2017" : 2161333}},
+                {"countryName" : "India"                    , "color" : "#BCBD22", "globalIdx" : -1, "coreData" : {"1967" : 275260 , "1977" : 412318, "1987" : 516632  , "1997" :  757694  , "2007" : 1005286 , "2013" : 1126270 , "2017" : 1223513}},
+                {"countryName" : "United States of America" , "color" : "#1F77B4", "globalIdx" : -1, "coreData" : {"1967" : 448832 , "1977" : 566895, "1987" : 622327  , "1997" :  744857  , "2007" : 847396  , "2013" : 894668  , "2017" : 974034 }},
+                {"countryName" : "Brazil"                   , "color" : "#2CA02C", "globalIdx" : -1, "coreData" : {"1967" : 164118 , "1977" : 246755, "1987" : 432765  , "1997" :  549937  , "2007" : 884825  , "2013" : 1143605 , "2017" : 1216178}},
+                {"countryName" : "Russia"                   , "color" : "#9C675C", "globalIdx" : -1, "coreData" : {"1967" : 0      , "1977" : 0     , "1987" : 0       , "1997" :  211041  , "2007" : 236353  , "2013" : 263296  , "2017" : 334095 }}];
 mm.initialize(mapUrl, myData);
 
 

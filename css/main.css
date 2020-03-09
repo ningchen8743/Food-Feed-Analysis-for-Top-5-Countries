@@ -8,7 +8,11 @@ div {
 }
 
 .divider {
-	height: 10vh;
+	height: 20vh;
+}
+
+.divider-1 {
+	height: 30vh;
 }
 
 .row {
@@ -63,8 +67,15 @@ p {
 
 .intro-paragraph {
 	text-align: justify;
-	padding-left:20vw;
-	padding-right:20vw;
+	padding-left:25vw;
+	padding-right:25vw;
+}
+
+.ending-paragraph {
+	text-align: justify;
+	padding-left:25vw;
+	padding-right:25vw;
+	height: 80vh;
 }
 
 #openingTitle {
@@ -88,7 +99,7 @@ p {
 
 #my-map-div {
     position: relative;
-    width: 100%;
+	height: 100vh;
     text-align: center;
 }
 
@@ -118,5 +129,17 @@ ul {
 	text-align: left;
 	padding-left: 1vw;
 	padding-right: 1vw;
+}
+
+#my-chord-div {
+	height: 100vh;
+	position: relative;
+    text-align: center;
+}
+
+#my-coral-div {
+    position: relative;
+    width: 100%;
+    text-align: center;
 }
 
