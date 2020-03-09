@@ -8,7 +8,7 @@ div {
 }
 
 .divider {
-	height: 30vh;
+	height: 10vh;
 }
 
 .row {
@@ -33,7 +33,18 @@ p {
 	font-size:14px;
 }
 
-#bolded {
+.bolded {
+	font-weight:700;
+	color: yellow;
+}
+
+.bolded-2 {
+	font-size:14px;
+	font-weight:700;
+	color: white;
+}
+
+.bolded-3 {
 	font-weight:700;
 	color: yellow;
 }
@@ -46,7 +57,11 @@ p {
 	text-align: justify;
 }
 
-#intro-paragraph {
+.align-left {
+	text-align: left;
+}
+
+.intro-paragraph {
 	text-align: justify;
 	padding-left:20vw;
 	padding-right:20vw;
@@ -95,7 +110,7 @@ p {
 }
 
 #flowingbubbles {
-	height: 150vh;
+	height: 100vh;
 }
 
 ul {
