@@ -75,7 +75,7 @@ p {
 	text-align: justify;
 	padding-left:25vw;
 	padding-right:25vw;
-	height: 80vh;
+	height: 90vh;
 }
 
 #openingTitle {
@@ -101,6 +101,11 @@ p {
     position: relative;
 	height: 100vh;
     text-align: center;
+}
+
+#slider-bar-step {
+	position: relative;
+	padding-left: 10vw;
 }
 
 .countryArea {
@@ -143,8 +148,19 @@ ul {
     text-align: center;
 }
 
-a{
+a {
 	font-size:14px;
-	color: blue;
+	color: #add8e6;
+}
+
+a:hover {
+	font-size:14px;
+	color: orange;
+}
+
+#endingImg {
+	opacity: 40%;
+    width: 110%;
+	text-align:center;
 }
 
